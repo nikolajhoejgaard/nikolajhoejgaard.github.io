@@ -414,7 +414,7 @@ header.site-header nav a:hover {
   text-transform: uppercase;
   letter-spacing: 0.16em;
   color: var(--text-strong);
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .about-list {
@@ -424,12 +424,6 @@ header.site-header nav a:hover {
   font-size: 16px;
   color: var(--text-body);
   max-width: 34em;
-}
-
-.useless-fact p {
-  font-size: 16px;
-  line-height: 1.6;
-  color: var(--text-muted);
 }
 
 /* ---------------- Footer / contact ---------------- */
