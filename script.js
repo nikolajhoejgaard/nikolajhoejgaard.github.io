@@ -12,6 +12,6 @@ document.querySelectorAll('.case-toggle').forEach((button) => {
     button.setAttribute('aria-expanded', String(!isOpen));
     panel.hidden = isOpen;
     sign.textContent = isOpen ? '+' : '\u2013';
-    label.textContent = isOpen ? 'Read the case' : 'Close';
+    label.textContent = isOpen ? 'Read the case' : 'Hide case';
   });
 });

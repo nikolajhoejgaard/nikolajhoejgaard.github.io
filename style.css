@@ -220,7 +220,6 @@ header.site-header nav a:hover {
 }
 
 .worked-with .sep,
-.about-list .sep,
 .testimonials figcaption .sep {
   color: var(--sep);
   padding: 0 2px;
@@ -247,8 +246,8 @@ header.site-header nav a:hover {
 }
 
 .section-label-col h2 {
-  font-weight: 400;
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.16em;
   color: var(--text-muted);
@@ -405,23 +404,15 @@ header.site-header nav a:hover {
   margin-top: 20px;
 }
 
-.about-block {
-  margin: 48px 0 0;
-}
-
-.about-block-label {
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  color: var(--text-strong);
-  margin-bottom: 10px;
-}
-
-.about-list {
+.ai-safety-list {
+  list-style: disc;
+  margin: 20px 0 0;
+  padding-left: 1.1em;
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px 22px;
+  flex-direction: column;
+  gap: 8px;
   font-size: 16px;
+  line-height: 1.62;
   color: var(--text-body);
   max-width: 34em;
 }
